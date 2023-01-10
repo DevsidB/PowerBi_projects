@@ -1,0 +1,8 @@
+https://www.youtube.com/watch?v=68m2UCtedj0&list=PLeo1K3hjS3uva8pk1FI3iK9kCOKQdz1I9&index=9&ab_channel=codebasics
+CODEBASICS
+
+Connect to sql server - Use db_dump version 2
+connect to local host - password - Avenger 
+
+importing data in power bi:
+get data> other sources>my sql> host : local host database :sales>next tab> import

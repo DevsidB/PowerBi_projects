@@ -1,0 +1,40 @@
+profitmargin  revenue   prof %   prof contr% 
+   2           10       20%       8%
+   10          20       50%       40%
+   3           30       10%       12
+   10          40       25%       40%
+tot pro mar                     total = 100%
+    25
+prof % = (prof margin/revenue)*100 (the ROI we get for investing certain amount)
+prof contr = (prof margin / tot prof margin)*100  (comparison with other products how well our product performed) (the total of all will always be 100 %)
+
+Dax command Note: 
+profit margin contribution % = DIVIDE([Total profit margin],CALCULATE([Total profit margin],ALL()))
+We can also write :
+profit margin contribution % = DIVIDE([Total profit margin],CALCULATE([Total profit margin],ALL('sales markets')))
+as we need total profit margin by market, so I think only aggregation by market is sufficient.
+
+
+This project will be explaining from the perspective of sales data at a hardware company AtliQ
+we can behave as a Internal or External Stakeholders to give a feedback.
+
+simple visual display of the most important information that decision makers need to help them achieve objectives.
+KPI dashboard define your key performance indicators.
+To increase the sales growth , Sales director need to look into these areas.
+--> Revenue by Zone
+--> Sales Quantity by Zone 
+--> Revenue Trend
+--> Revenue by Markets (units should be in Thousands)
+--> Sales Quantity by Markets
+--> Top 5 Customers by Revenue
+--> Top 5 Products by Revenue
+--> Last 5 years Revenue (overall sales)
+--> Last 5 years Revenue by Zone. (We can focus to increase sales on particular zone by increasing sales employees , promoting\advertising products)
+--> Identify Less Revenue getting from Customers (get the feedback from them, attract offers & discounts)
+--> Identify Top Revenue getting from Customers ( increase products which have more price)
+--> Identify the markets which sales is very very less ( stop sales in those areas to avoid transport charges and  sales employees, this amount can be invest on other areas )
+--> Display the return products Quantity from Zone & Customer .
+--> Identify which products increasing more Revenue from Zone, Market , customer (main objective is to increase sales growth)
+--> Identify on which month sales growth is increasing by checking with previous years(so that company can be ready with quantity to increase the products distribution)
+--> Few records sales amount can be zero by giving offer\discount when they purchased other huge products. So we need to maintain those products quantity.
+--> Inventory within a monthly time frame versus a yearly time frame can have a huge impact on the effectiveness of a supply chain.
